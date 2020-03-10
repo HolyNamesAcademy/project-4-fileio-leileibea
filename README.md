@@ -36,19 +36,19 @@ The program allows you to run several commands that allows you to read data, man
 
 These are the functions you will implement:
 - In Main.java:
--- **ReadFile**: Reads a file from the given path and puts the information into an ArrayList. If the file does not exist, the function catches the exception, prints a message to the console, and return an empty (not null) array.
--- **PrintWeatherData**: Prints the weather data ArrayList to the console. Each weather data item should go on a new line:
+    - **ReadFile**: Reads a file from the given path and puts the information into an ArrayList. If the file does not exist, the function catches the exception, prints a message to the console, and return an empty (not null) array.
+    - **PrintWeatherData**: Prints the weather data ArrayList to the console. Each weather data item should go on a new line:
 
-    [City1], [Average Temperature], [Average Humidity]
-    [City2], [Average Temperature], [Average Humidity]
+        [City1], [Average Temperature], [Average Humidity]
+        [City2], [Average Temperature], [Average Humidity]
 
--- **SortWeatherData**: Sorts the given ArrayList from hottest average temperature to coldest average temperature
--- **WriteFile**: Writes the weather data information into the file with the given path. If shouldAppend is false, the function replaces the existing contents of the file (if it exists) with the new weatherData. If shouldAppend is true, the function adds the weather data to the end of the file. If the file cannot be created, the function catches the exception, prints a message to the console, and does not try to write to the file.
+    - **SortWeatherData**: Sorts the given ArrayList from hottest average temperature to coldest average temperature
+    - **WriteFile**: Writes the weather data information into the file with the given path. If shouldAppend is false, the function replaces the existing contents of the file (if it exists) with the new weatherData. If shouldAppend is true, the function adds the weather data to the end of the file. If the file cannot be created, the function catches the exception, prints a message to the console, and does not try to write to the file.
 - In WeatherData.java:
--- **toString**: Returns a string representation of WeatherData:
+    - **toString**: Returns a string representation of WeatherData:
 
-    [City], [Average Temperature], [Average Humidity]
--- **compareTo**: Read the compareTo documentation and implement it here: https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html#compareTo-T-
+        [City], [Average Temperature], [Average Humidity]
+    - **compareTo**: Read the compareTo documentation and implement it here: https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html#compareTo-T-
 
 Committing your Changes and Turning In The Project
 -----
