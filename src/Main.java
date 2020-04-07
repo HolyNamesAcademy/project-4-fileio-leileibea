@@ -7,6 +7,7 @@ public class Main {
     Takes commands from the user and executes them. Possible commands are
     'read' - reads a file of weather data into the system
     'write' - writes weather data to a file -- overwrites the file if it exists
+    'sort' - sorts weather data by the hottest to coldest average temperature
     'append' - writes weather data to a file -- appends data to the file if it exists
     'quit' - ends the program
      */
@@ -15,7 +16,7 @@ public class Main {
         ArrayList<WeatherData> weatherData = null;
         while (true)
         {
-            System.out.print("Enter a command:");
+            System.out.print("Enter a command: ");
             Scanner sc = new Scanner(System.in);
 
             String command = sc.next().toLowerCase();
@@ -23,7 +24,7 @@ public class Main {
             {
                 case "read":
                 {
-                    System.out.print("Enter the path to the file:");
+                    System.out.print("Enter the path to the file: ");
                     String path = sc.next();
 
                     weatherData = ReadFile(path);
@@ -49,7 +50,7 @@ public class Main {
                         break;
                     }
 
-                    System.out.print("Enter the path to the file:");
+                    System.out.print("Enter the path to the file: ");
                     String path = sc.next();
 
                     WriteFile(path, false, weatherData);
@@ -63,7 +64,7 @@ public class Main {
                         break;
                     }
 
-                    System.out.print("Enter the path to the file:");
+                    System.out.print("Enter the path to the file: ");
                     String path = sc.next();
 
                     WriteFile(path, true, weatherData);
