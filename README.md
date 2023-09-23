@@ -1,5 +1,15 @@
 # Project: File IO
 
+## Table of Contents
+
+- [Project: File IO](#project-file-io)
+  - [Table of Contents](#table-of-contents)
+  - [Good work pledge](#good-work-pledge)
+  - [Getting started](#getting-started)
+  - [The Project](#the-project)
+  - [Committing your Changes and Turning In The Project](#committing-your-changes-and-turning-in-the-project)
+  - [Grading](#grading)
+
 ## Good work pledge
 
 We are here to broaden your exposure to Computer Science. We can only achieve that purpose when you work hard and honestly. It may be tempting to copy-paste code from a classmate, or let a classmate do all your work for you—don't! You will be cheating yourself from the most valuable thing course has to offer—overcoming challenges.
@@ -52,7 +62,7 @@ These are the functions you will implement:
 
     [City], [Average Temperature], [Average Humidity]
 
-  - **compareTo**: Read the compareTo documentation and implement it here: https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html#compareTo-T-
+  - **compareTo**: Read the compareTo documentation and implement it here: <https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html#compareTo-T->
 
 ## Committing your Changes and Turning In The Project
 
